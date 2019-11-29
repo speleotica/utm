@@ -1,7 +1,7 @@
 {
-  "name": "typescript-library-skeleton",
+  "name": "@speleotica/utm",
   "version": "0.0.0-development",
-  "description": "my personal ES2015 library project skeleton",
+  "description": "utils for working with UTM coordinates",
   "main": "index.js",
   "sideEffects": false,
   "scripts": {
@@ -30,6 +30,9 @@
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "husky": {
     "hooks": {
@@ -69,17 +72,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jedwards1211/typescript-library-skeleton.git"
+    "url": "https://github.com/speleotica/utm.git"
   },
   "keywords": [
-    "typescript"
+    "utm"
   ],
   "author": "Andy Edwards",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jedwards1211/typescript-library-skeleton/issues"
+    "url": "https://github.com/speleotica/utm/issues"
   },
-  "homepage": "https://github.com/jedwards1211/typescript-library-skeleton#readme",
+  "homepage": "https://github.com/speleotica/utm#readme",
   "devDependencies": {
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.6",
